@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.Set;
 
 /**
@@ -5,9 +6,9 @@ import java.util.Set;
  */
 public interface InterfaceCoreApi {
     //создание нового контакта, дружба контактов, удаление друзей и т.д.
-    void createContact(Contact contact);
-    void addFriendship(Contact contact);
-    void deleteFriendship(Contact contact);
-    Set<Contact> getFriendList(Contact contact);
+    void createContact(String firstname, String lastname, String email, String password, LocalDate birthday);
+    void addFriendship(int contact_id, int friend_id);
+    void deleteFriendship(int contact_id, int friend_id);
+    Set<Contact> getFriendList(int contact_id);
 
 }

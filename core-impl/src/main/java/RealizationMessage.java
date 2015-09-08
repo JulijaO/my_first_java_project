@@ -1,7 +1,10 @@
+import java.util.List;
+
 /**
  * Created by ulia2612 on 07.09.15.
  */
 public class RealizationMessage implements InterfaceMessage{
+
     @Override
     public void addMessage(Message message) {
 
@@ -13,12 +16,17 @@ public class RealizationMessage implements InterfaceMessage{
     }
 
     @Override
-    public void deleteMessage(Message message) {
+    public void deleteMessage(int message_id) {
 
     }
 
     @Override
-    public int getMessageCount(Message message) {
+    public int getMessageCount(int message_id) {
         return 0;
+    }
+
+    @Override
+    public List<Message> getAllMessage() {
+        return null;
     }
 }

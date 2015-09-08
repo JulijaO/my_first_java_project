@@ -1,34 +1,43 @@
+import java.time.LocalDate;
 import java.util.Set;
 
 /**
  * Created by ulia2612 on 06.09.15.
  */
 public class Contact {
-    private String contact_id;
+    private int contact_id;
     private String firstname;
     private String lastname;
     private String numberPhone;
     private String email;
     private String address;
+    private String image;
+    private String password;
     private Set<Hobby> hobby;
     private Set<Place> places;
+    private LocalDate birthday;
 
-    public Contact(String contact_id, String firstname, String lastname, String numberPhone, String email, String address, Set<Hobby> hobby, Set<Place> places) {
-        this.contact_id = contact_id;
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.numberPhone = numberPhone;
-        this.email = email;
-        this.address = address;
-        this.hobby = hobby;
-        this.places = places;
+    public String getImage() {
+        return image;
     }
 
-    public String getContact_id() {
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public int getContact_id() {
         return contact_id;
     }
 
-    public void setContact_id(String contact_id) {
+    public void setContact_id(int contact_id) {
         this.contact_id = contact_id;
     }
 
@@ -86,5 +95,13 @@ public class Contact {
 
     public void setPlaces(Set<Place> places) {
         this.places = places;
+    }
+
+    public LocalDate getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(LocalDate birthday) {
+        this.birthday = birthday;
     }
 }

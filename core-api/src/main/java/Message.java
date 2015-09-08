@@ -4,16 +4,18 @@ import java.util.Date;
  * Created by ulia2612 on 06.09.15.
  */
 public class Message {
+    private int message_id;
     private String content;
     private Contact addresser;
     private Contact recipient;
     private Date dateTime;
 
-    public Message(String content, Contact addresser, Contact recipient, Date dateTime) {
-        this.content = content;
-        this.addresser = addresser;
-        this.recipient = recipient;
-        this.dateTime = dateTime;
+    public int getMessage_id() {
+        return message_id;
+    }
+
+    public void setMessage_id(int message_id) {
+        this.message_id = message_id;
     }
 
     public String getContent() {

@@ -4,13 +4,7 @@
 public class Hobby {
     private String description;
     private String title;
-    private String hobby_id;
-
-    public Hobby(String description, String title, String hobby_id) {
-        this.description = description;
-        this.title = title;
-        this.hobby_id = hobby_id;
-    }
+    private int hobby_id;
 
     public String getDescription() {
         return description;
@@ -28,11 +22,11 @@ public class Hobby {
         this.title = title;
     }
 
-    public String getHobby_id() {
+    public int getHobby_id() {
         return hobby_id;
     }
 
-    public void setHobby_id(String hobby_id) {
+    public void setHobby_id(int hobby_id) {
         this.hobby_id = hobby_id;
     }
 }

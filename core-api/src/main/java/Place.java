@@ -2,25 +2,18 @@
  * Created by ulia2612 on 07.09.15.
  */
 public class Place {
-    private String place_id;
+    private int place_id;
     private String title;
     private String description;
     private double longitude;
     private double latitude;
 
-    public Place(String place_id, String title, String description, double longitude, double latitude) {
-        this.place_id = place_id;
-        this.title = title;
-        this.description = description;
-        this.longitude = longitude;
-        this.latitude = latitude;
-    }
 
-    public String getPlace_id() {
+    public int getPlace_id() {
         return place_id;
     }
 
-    public void setPlace_id(String place_id) {
+    public void setPlace_id(int place_id) {
         this.place_id = place_id;
     }
 
