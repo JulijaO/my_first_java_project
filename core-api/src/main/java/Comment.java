@@ -5,6 +5,7 @@ public class Comment {
     private int comment_id;
     private String content;
 
+
     public int getComment_id() {
         return comment_id;
     }
