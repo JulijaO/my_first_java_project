@@ -1,3 +1,8 @@
+package service;
+
+import home.socialnetwork.InterfacePost;
+import home.socialnetwork.model.Post;
+
 import java.util.Date;
 import java.util.List;
 
