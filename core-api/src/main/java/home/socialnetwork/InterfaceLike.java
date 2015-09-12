@@ -1,3 +1,7 @@
+package home.socialnetwork;
+
+import home.socialnetwork.model.Like;
+
 /**
  * Created by ulia2612 on 08.09.15.
  */

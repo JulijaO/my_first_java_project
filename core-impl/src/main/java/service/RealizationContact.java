@@ -1,3 +1,8 @@
+package service;
+
+import home.socialnetwork.InterfaceContact;
+import home.socialnetwork.model.Contact;
+
 import java.util.List;
 
 /**

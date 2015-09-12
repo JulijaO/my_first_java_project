@@ -1,3 +1,5 @@
+package home.socialnetwork.model;
+
 import java.time.LocalDate;
 import java.util.Set;
 

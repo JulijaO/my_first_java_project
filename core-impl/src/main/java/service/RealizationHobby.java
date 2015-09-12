@@ -1,3 +1,9 @@
+package service;
+
+import home.socialnetwork.InterfaceHobby;
+import home.socialnetwork.model.Hobby;
+import home.socialnetwork.model.Place;
+
 import java.util.List;
 
 /**

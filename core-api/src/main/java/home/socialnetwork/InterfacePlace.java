@@ -1,3 +1,7 @@
+package home.socialnetwork;
+
+import home.socialnetwork.model.Place;
+
 import java.util.List;
 
 /**

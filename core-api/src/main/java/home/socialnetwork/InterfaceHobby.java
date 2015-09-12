@@ -1,3 +1,8 @@
+package home.socialnetwork;
+
+import home.socialnetwork.model.Hobby;
+import home.socialnetwork.model.Place;
+
 import java.util.List;
 
 /**

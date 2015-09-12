@@ -1,3 +1,5 @@
+package home.socialnetwork.model;
+
 /**
  * Created by ulia2612 on 08.09.15.
  */

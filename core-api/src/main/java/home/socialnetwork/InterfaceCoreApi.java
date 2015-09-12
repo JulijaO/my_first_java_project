@@ -1,3 +1,7 @@
+package home.socialnetwork;
+
+import home.socialnetwork.model.Contact;
+
 import java.time.LocalDate;
 import java.util.Set;
 

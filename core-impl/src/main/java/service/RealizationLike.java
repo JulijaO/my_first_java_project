@@ -1,7 +1,12 @@
+package service;
+
+import home.socialnetwork.InterfaceLike;
+import home.socialnetwork.model.Like;
+
 /**
  * Created by ulia2612 on 08.09.15.
  */
-public class RealizationLike implements InterfaceLike{
+public class RealizationLike implements InterfaceLike {
     @Override
     public void addLike(Like like) {
 

@@ -1,3 +1,8 @@
+package service;
+
+import home.socialnetwork.InterfacePlace;
+import home.socialnetwork.model.Place;
+
 import java.util.List;
 
 /**

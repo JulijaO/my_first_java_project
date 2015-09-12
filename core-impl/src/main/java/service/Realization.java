@@ -1,3 +1,8 @@
+package service;
+
+import home.socialnetwork.InterfaceCoreApi;
+import home.socialnetwork.model.Contact;
+
 import java.time.LocalDate;
 import java.util.Set;
 

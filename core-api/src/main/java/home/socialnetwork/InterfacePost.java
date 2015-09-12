@@ -1,3 +1,7 @@
+package home.socialnetwork;
+
+import home.socialnetwork.model.Post;
+
 import java.util.Date;
 import java.util.List;
 

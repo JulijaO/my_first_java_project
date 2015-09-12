@@ -1,3 +1,5 @@
+package home.socialnetwork.model;
+
 import java.util.Date;
 
 /**
